@@ -52,10 +52,10 @@ def main():
 
         #Логин
     log = driver.find_elements_by_css_selector("#user_login")
-    log[0].send_keys("Leyla2208")
+    log[0].send_keys("Логин")
     #Пароль
     pas = driver.find_elements_by_css_selector("#user_pass")
-    pas[0].send_keys("pFcmEPD#zbhY^3NN4w")#Сори просто не могу сказать пароль от админки сайта
+    pas[0].send_keys("Пароль")#Сори просто не могу сказать пароль от админки сайта
         #Вход
     aut = driver.find_elements_by_css_selector("#wp-submit")
     aut[0].click()
